@@ -1,0 +1,1 @@
+Mais detalhes em https://metal-sponge-ba1.notion.site/Next-js-c9d5c987edbb4d62ae3e9e206b007c36
