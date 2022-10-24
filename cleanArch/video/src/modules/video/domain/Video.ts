@@ -4,9 +4,13 @@ export interface IVideoData {
   src: string;
 }
 
-export class Video {
+export class Video implements IMediaElement {
 
   constructor(private mediaElement: IMediaElement) {}
+  
+  src(src: string) {
+    this.mediaElement.src(src);
+  };
 
   play() {
     this.mediaElement.play();
@@ -18,7 +22,7 @@ export class Video {
 
 
   currentTime() {
-    this.mediaElement.currentTime();
+    return this.mediaElement.currentTime();
   }
 
   getSrc() {

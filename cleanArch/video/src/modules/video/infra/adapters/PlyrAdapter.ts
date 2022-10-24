@@ -1,11 +1,12 @@
-import { VideoJsPlayer } from 'video.js';
+import Plyr from 'plyr';
 import { IMediaElement } from '../../domain/interfaces/IMediaElement';
 
-export class VideoJSAdapter {
-  static adapter (videoInstance: VideoJsPlayer): IMediaElement { 
+export class PlyrAdapter {
+  static adapter (videoInstance: Plyr): IMediaElement { 
     const mediaElement: IMediaElement = {
-      getSrc: () => videoInstance.src(),
-      getControl: () => videoInstance.controls(),
+      getSrc: () => videoInstance.source.sources[0].src,
+      getControl: () => !!videoInstance.elements.controls,
+      currentTime: () => videoInstance.currentTime,
     } as IMediaElement;
 
     /**
