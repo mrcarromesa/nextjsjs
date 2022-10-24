@@ -15,3 +15,9 @@
   - Não tem uma regrinha especifica
   - Ela é uma camada que devo ter tudo que for referente a regra de negócio
   - Normalmente utilizamos táticas do DDD
+
+
+---
+
+## Exemplo
+

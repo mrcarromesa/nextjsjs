@@ -60,10 +60,8 @@ const Home: NextPage = () => {
             <li key={item}>
               <button type="button" onClick={() => handleChangeFramework(item as FrameworksSupported)}>{item}</button>
             </li>
-
           ))}
         </ul>
-
         <h2>Controls</h2>
         <button type="button" onClick={handlePlay}>Play</button>
         <button type="button" onClick={handlePause}>Pause</button>
