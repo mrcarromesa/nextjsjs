@@ -8,7 +8,6 @@ export class PlyrGateway implements IVideoGateway {
   constructor(private readonly videoInstance: Plyr) {}
 
   create(): Video {
-    
     const adapter = PlyrAdapter.adapter(this.videoInstance);
     const videoInterface = new Video(adapter);
     return videoInterface;

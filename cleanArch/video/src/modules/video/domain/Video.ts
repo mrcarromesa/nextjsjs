@@ -1,9 +1,4 @@
 import { IMediaElement } from "./interfaces/IMediaElement";
-
-export interface IVideoData {
-  src: string;
-}
-
 export class Video implements IMediaElement {
 
   constructor(private mediaElement: IMediaElement) {}
@@ -19,7 +14,6 @@ export class Video implements IMediaElement {
   pause() {
     this.mediaElement.pause();
   }
-
 
   currentTime() {
     return this.mediaElement.currentTime();

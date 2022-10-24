@@ -4,7 +4,6 @@ import { Video } from '../../domain/Video';
 import { CreateVideoInstanceService } from '../../services/CreateVideoInstanceService';
 import { PlyrGateway } from '../gateways/Plyr';
 import { VideoJSGateway } from '../gateways/VideoJSGateway';
-// import 'src/modules/video/infra/css/plyr';
 
 export enum FrameworksSupported {
   videojs = 'videojs',

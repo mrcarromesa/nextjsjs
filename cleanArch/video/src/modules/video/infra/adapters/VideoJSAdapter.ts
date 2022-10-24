@@ -11,7 +11,7 @@ export class VideoJSAdapter {
     /**
      * The difference is that Object.assign changes the object in-place, 
      * while the spread operator (...) creates a brand new object, and this will break object reference equality.
-     */
+    */
     Object.assign(videoInstance, {...mediaElement});
     
     return videoInstance as unknown as IMediaElement;
