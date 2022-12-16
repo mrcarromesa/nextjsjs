@@ -4,8 +4,9 @@ import Second from '../components/Second';
 import Third from '../components/Third';
 import Route from '../containers/MenuNavigation/Route';
 import Switch from '../containers/MenuNavigation/Switch';
+import { withMenuRouteContextProvider } from '../contexts/MenuRouteContext';
 
-export default function Home() {
+const Home = () => {
   return (
     <Switch>
       <Route path='main'>
@@ -23,3 +24,5 @@ export default function Home() {
     </Switch>
   );
 }
+
+export default withMenuRouteContextProvider(Home);

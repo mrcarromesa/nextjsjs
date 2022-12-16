@@ -36,7 +36,7 @@ const SwitchMenu = ({ children }: ISwitchMenuProps) => {
     const [current] = itemsMenuIndexes.reverse();
     setItemMenuActiveIndex(current);
 
-    setContainerHeight(0);
+    setContainerHeight(itemMenuActiveRef.current?.getBoundingClientRect().height || 0);
 
     if (itemsMenuIndexes.length < 2) {
       setContentTranslateX(0);

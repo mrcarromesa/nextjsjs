@@ -39,3 +39,18 @@ export const MenuRouteProvider = ({ children }: IMenuRoutesProviderProps) => {
     </MenuRouteContext.Provider>
   )
 }
+
+type WithMenuRouteProviderProps<T> = T & {
+  children?: React.ReactNode;
+};
+
+export const withMenuRouteContextProvider = <T,>(Component: React.ComponentType<T>) => {
+  // eslint-disable-next-line react/display-name
+  return function (props: WithMenuRouteProviderProps<T>) {
+    return (
+      <MenuRouteProvider>
+        <Component {...props}>{props.children}</Component>
+      </MenuRouteProvider>
+    );
+  };
+};
