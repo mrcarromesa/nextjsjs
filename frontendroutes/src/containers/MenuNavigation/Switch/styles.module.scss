@@ -4,18 +4,33 @@
   height: auto;
   background: #e1e1e1;
   overflow: hidden;
-  transition: height 0.25s;
   
   .itemRouterContent {
-    width: 300px;
-    transition: transform 0.5s ease-in-out;
-    transform: translateX(0);
-    display: flex;
-
+    width: 100%;
+    position: relative;
+    border: solid 1px black;
+    background: red;
+    transition: height 0.25s;
+    min-height: 100px;
+        
     .itemRouter {
-      flex: 0 0 100%;
+      position: absolute;
       width: 100%;
-      height: auto;
+      height: fit-content;
+      transition: left 0.5s;
+      top: 0;
+      left: 0;
+      z-index: 9;
+      
+      &.prev {
+        left: -100%;
+        z-index: 1;
+      }
+      
+      &.next {
+        left: 100%;
+        z-index: 1;
+      }
     }
   }
 }
