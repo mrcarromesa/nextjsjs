@@ -1,0 +1,4 @@
+{
+  "title": "Olá Mundo",
+  "test": "t {{myVar}}"
+}
