@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root, html.light {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-rgb: 31, 41, 55;
+  }
+}
+
+html {
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scroll-padding-top: 4rem;
+}
+
+html.dark {
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 31, 41, 55;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+@layer base {
+  h1 {
+    @apply text-3xl;
+    font-weight: bold;
+  }
+  h2 {
+    @apply text-2xl;
+    font-weight: bold;
+  }
+  h3 {
+    @apply text-xl;
+    font-weight: bold;
+  }
+}

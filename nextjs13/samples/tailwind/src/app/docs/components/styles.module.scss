@@ -1,0 +1,22 @@
+.indicator {
+  background: orange;
+  height: 0.25rem;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: auto;
+  bottom: 0;
+  animation: scroll 1ms ease-in-out;
+  animation-timeline: scroll();
+  transform-origin: 0 0;
+}
+
+@keyframes scroll {
+  from {
+    scale: 0 1;
+  }
+
+  to {
+    scale: 1 1;
+  }
+}
