@@ -1,7 +1,6 @@
 'use client'
-import { Button } from '@/app/components/Button'
-import { ListGroup } from '@/app/components/ListGroup'
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
+import { Button, ListGroup } from '@mrcarromesa/components'
 
 export default function DisabledItems() {
   return (

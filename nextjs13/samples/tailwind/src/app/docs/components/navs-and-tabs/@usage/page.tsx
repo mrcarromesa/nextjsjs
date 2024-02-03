@@ -1,6 +1,6 @@
 'use client'
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
-import { TabNav } from '@/app/components/TabNav'
+import { TabNav } from '@mrcarromesa/components'
 
 export default function Usage() {
   return (

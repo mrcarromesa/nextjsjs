@@ -1,7 +1,7 @@
 'use client'
-import { Button } from '@/app/components/Button'
-import { Progress } from '@/app/components/Progress'
+
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
+import { Button, Progress } from '@mrcarromesa/components'
 import Link from 'next/link'
 
 export default function Example() {

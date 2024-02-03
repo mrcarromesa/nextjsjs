@@ -1,11 +1,14 @@
 'use client'
-import { Button } from '@/app/components/Button'
-import { OffCanvas } from '@/app/components/Offcanvas'
-import { Props as OffCanvasProps } from '@/app/components/Offcanvas/Root'
-import { OverlayElementProps } from '@/app/components/Offcanvas/Root'
+
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
 import { Fragment, useRef } from 'react'
 import { EXAMPLE_OFF_CANVAS } from './constants'
+import {
+  Button,
+  OffCanvas,
+  OffCanvasProps,
+  OverlayElementProps,
+} from '@mrcarromesa/components'
 
 const positions = ['top', 'right', 'bottom', 'left']
 

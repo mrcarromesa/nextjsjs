@@ -1,6 +1,5 @@
 'use client'
-import { Button } from '@/app/components/Button'
-import { Card } from '@/app/components/Card'
+import { Button, Card } from '@mrcarromesa/components'
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
 
 export default function Example() {

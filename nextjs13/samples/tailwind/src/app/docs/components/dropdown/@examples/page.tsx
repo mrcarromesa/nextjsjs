@@ -1,6 +1,6 @@
 'use client'
-import { Dropdown } from '@/app/components/Dropdown'
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
+import { Dropdown } from '@mrcarromesa/components'
 
 export default function Examples() {
   return (

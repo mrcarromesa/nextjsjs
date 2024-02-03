@@ -1,6 +1,6 @@
 'use client'
-import { Card } from '@/app/components/Card'
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
+import { Card } from '@mrcarromesa/components'
 
 export default function HeaderFooter() {
   return (

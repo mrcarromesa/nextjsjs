@@ -1,8 +1,7 @@
 'use client'
-import { Button } from '@/app/components/Button'
-import { ButtonGroup } from '@/app/components/Button/Group'
-import { Dropdown } from '@/app/components/Dropdown'
+
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
+import { Button, ButtonGroup, Dropdown } from '@mrcarromesa/components'
 
 const buttonVariation = [
   'primary',

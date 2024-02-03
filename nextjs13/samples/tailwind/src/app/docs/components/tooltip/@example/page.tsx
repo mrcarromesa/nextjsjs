@@ -1,5 +1,6 @@
-import { Tooltip } from '@/app/components/Tooltip'
+'use client'
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
+import { Tooltip } from '@mrcarromesa/components'
 
 export default function Example() {
   return (
@@ -19,7 +20,7 @@ export default function Example() {
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat{' '}
           <Tooltip text="More text">
-            <span className="text-primary-background">exercitationem</span>
+            <span className="text-blue-300">exercitationem</span>
           </Tooltip>{' '}
           numquam cupiditate aspernatur sunt nemo sequi ducimus qui. Dicta
           suscipit cumque iure nam eligendi ad dignissimos vero asperiores
@@ -30,7 +31,7 @@ export default function Example() {
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat{' '}
           <Tooltip text="More text">
-            <span className="text-primary-background">exercitationem</span>
+            <span className="text-blue-300">exercitationem</span>
           </Tooltip>{' '}
           numquam cupiditate aspernatur sunt nemo sequi ducimus qui. Dicta
           suscipit cumque iure nam eligendi ad dignissimos vero asperiores

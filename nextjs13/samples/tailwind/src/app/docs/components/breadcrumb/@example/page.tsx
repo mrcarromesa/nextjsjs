@@ -1,6 +1,6 @@
 'use client'
-import { Breadcrumb } from '@/app/components/Breadcrumb'
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
+import { Breadcrumb } from '@mrcarromesa/components'
 
 export default function Examples() {
   return (

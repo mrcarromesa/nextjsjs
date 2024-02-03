@@ -1,6 +1,7 @@
 'use client'
-import { Progress } from '@/app/components/Progress'
+
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
+import { Progress } from '@mrcarromesa/components'
 
 export default function StripedAnimated() {
   return (

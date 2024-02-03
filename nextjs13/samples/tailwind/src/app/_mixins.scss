@@ -1,5 +1,5 @@
 @mixin scrollbar {
-  scrollbar-width: thin;
+  // scrollbar-width: thin;
   &::-webkit-scrollbar {
     width: .1875rem !important;
     height: .1875rem;
@@ -10,11 +10,11 @@
   }
 
   &::-webkit-scrollbar-thumb {
-    background: #bbbbbb;
+    background: black;
     border-radius: .1875rem;
   }
 
   &::-webkit-scrollbar-thumb:hover {
-    background: #dfdfdf;
+    background: black;
   }
 }

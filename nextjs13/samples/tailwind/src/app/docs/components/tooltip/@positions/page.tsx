@@ -1,6 +1,7 @@
-import { Button } from '@/app/components/Button'
-import { Tooltip } from '@/app/components/Tooltip'
+'use client'
+
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
+import { Button, Tooltip } from '@mrcarromesa/components'
 
 const positions = ['top', 'right', 'bottom', 'left'] as const
 

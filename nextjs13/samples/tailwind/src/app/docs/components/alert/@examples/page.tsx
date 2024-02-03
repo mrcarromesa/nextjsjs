@@ -1,7 +1,7 @@
 'use client'
-import { Alert } from '@/app/components/Alert'
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
 import { alerts } from '../../constants'
+import { Alert } from '@mrcarromesa/components'
 
 export default function Examples() {
   return (

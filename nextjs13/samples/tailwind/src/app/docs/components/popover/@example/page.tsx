@@ -1,9 +1,9 @@
 'use client'
-import { Button } from '@/app/components/Button'
-import { Popover, PopoverElement } from '@/app/components/Popover'
+
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
 import { useRef } from 'react'
 import { HTML_POPOVER } from './constants'
+import { Button, Popover, PopoverElement } from '@mrcarromesa/components'
 
 export default function Example() {
   const popoverRef = useRef<PopoverElement | null>(null)

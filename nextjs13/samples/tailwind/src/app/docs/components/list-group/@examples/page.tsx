@@ -1,6 +1,6 @@
 'use client'
-import { ListGroup } from '@/app/components/ListGroup'
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
+import { ListGroup } from '@mrcarromesa/components'
 
 export default function Examples() {
   return (

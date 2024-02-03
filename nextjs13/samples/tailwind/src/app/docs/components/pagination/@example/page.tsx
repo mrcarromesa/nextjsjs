@@ -1,6 +1,7 @@
 'use client'
-import { Pagination } from '@/app/components/Pagination'
+
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
+import { Pagination } from '@mrcarromesa/components'
 
 export default function Example() {
   return (

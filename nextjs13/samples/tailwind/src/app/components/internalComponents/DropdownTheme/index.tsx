@@ -1,8 +1,8 @@
 'use client'
 
 import { useContext } from 'react'
-import { Dropdown } from '../../Dropdown'
 import { ThemeContext } from '@/app/contexts/Theme'
+import { Dropdown } from '@mrcarromesa/components'
 
 export function DropdownTheme() {
   const { setPreferredTheme, userThemePreference } = useContext(ThemeContext)

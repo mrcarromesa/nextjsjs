@@ -1,7 +1,6 @@
 'use client'
-
-import { Badge } from '@/app/components/Badge'
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
+import { Badge } from '@mrcarromesa/components'
 
 export default function Pill() {
   return (

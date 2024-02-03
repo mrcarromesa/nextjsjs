@@ -1,8 +1,6 @@
 'use client'
-
-import { Badge } from '@/app/components/Badge'
-import { Button } from '@/app/components/Button'
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
+import { Badge, Button } from '@mrcarromesa/components'
 
 export default function Buttons() {
   return (

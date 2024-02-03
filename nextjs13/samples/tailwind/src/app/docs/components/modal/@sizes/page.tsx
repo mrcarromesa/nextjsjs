@@ -1,10 +1,8 @@
 'use client'
-import { Button } from '@/app/components/Button'
-import { Modal } from '@/app/components/Modal'
-import { ModalElement } from '@/app/components/Modal/Root'
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
 import { Fragment, useRef } from 'react'
 import { EXAMPLE_MODAL_HTML } from './constants'
+import { Button, Modal, ModalElement } from '@mrcarromesa/components'
 
 export default function Sizes() {
   const modalRefFullScreen = useRef<ModalElement | null>(null)

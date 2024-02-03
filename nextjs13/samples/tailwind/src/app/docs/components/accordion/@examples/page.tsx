@@ -1,6 +1,6 @@
 'use client'
-import { Accordion } from '@/app/components/Accordion'
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
+import { Accordion } from '@mrcarromesa/components'
 
 export default function Examples() {
   return (

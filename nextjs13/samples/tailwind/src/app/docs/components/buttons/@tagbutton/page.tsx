@@ -1,5 +1,5 @@
 'use client'
-import { Button } from '@/app/components/Button'
+import { Button } from '@mrcarromesa/components'
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
 import Link from 'next/link'
 

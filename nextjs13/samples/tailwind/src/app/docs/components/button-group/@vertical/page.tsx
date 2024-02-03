@@ -1,5 +1,4 @@
-import { Button } from '@/app/components/Button'
-import { ButtonGroup } from '@/app/components/Button/Group'
+import { Button, ButtonGroup } from '@mrcarromesa/components'
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
 
 export default function Vertical() {

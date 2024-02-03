@@ -1,6 +1,5 @@
-import { Button } from '@/app/components/Button'
-import { ButtonGroup } from '@/app/components/Button/Group'
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
+import { Button, ButtonGroup } from '@mrcarromesa/components'
 
 export default function Example() {
   return (

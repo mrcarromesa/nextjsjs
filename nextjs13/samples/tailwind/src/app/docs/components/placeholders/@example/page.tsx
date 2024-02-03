@@ -1,7 +1,5 @@
-import { Button } from '@/app/components/Button'
-import { Card } from '@/app/components/Card'
-import { Placeholder } from '@/app/components/Placeholder'
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
+import { Button, Card, Placeholder } from '@mrcarromesa/components'
 
 export default function Example() {
   return (

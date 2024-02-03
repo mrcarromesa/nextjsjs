@@ -1,6 +1,6 @@
 'use client'
-import { Carousel } from '@/app/components/Carousel'
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
+import { Carousel } from '@mrcarromesa/components'
 
 export default function AutoPlaying() {
   return (

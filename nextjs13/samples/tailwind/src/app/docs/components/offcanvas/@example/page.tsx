@@ -1,10 +1,9 @@
 'use client'
-import { Button } from '@/app/components/Button'
-import { OffCanvas } from '@/app/components/Offcanvas'
-import { OverlayElementProps } from '@/app/components/Offcanvas/Root'
+
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
 import { useRef } from 'react'
 import { EXAMPLE_OFF_CANVAS } from './constants'
+import { Button, OffCanvas, OverlayElementProps } from '@mrcarromesa/components'
 
 export default function Example() {
   const offCanvasRef = useRef<OverlayElementProps | null>(null)

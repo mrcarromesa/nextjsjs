@@ -1,6 +1,6 @@
 'use client'
-import { Alert } from '@/app/components/Alert'
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
+import { Alert } from '@mrcarromesa/components'
 import { CheckCircle, Info, Warning } from '@phosphor-icons/react'
 
 export default function Icons() {
